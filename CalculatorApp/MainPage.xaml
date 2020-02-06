@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="CalculatorApp.MainPage" Title="Calculator App Demo" BackgroundColor="Black">
+   <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="resultText" Text="0" TextColor="White" FontSize="100" HorizontalTextAlignment="End" LineBreakMode="NoWrap" Grid.ColumnSpan="4" VerticalTextAlignment="Center"></Label>
+        <Button Text="7" Grid.Row="2" Grid.Column="0" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="8" Grid.Row="2" Grid.Column="1" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="9" Grid.Row="2" Grid.Column="2" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="4" Grid.Row="3" Grid.Column="0" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="5" Grid.Row="3" Grid.Column="1" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="6" Grid.Row="3" Grid.Column="2" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="1" Grid.Row="4" Grid.Column="0" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="2" Grid.Row="4" Grid.Column="1" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="3" Grid.Row="4" Grid.Column="2" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="0" Grid.Row="5" Grid.Column="1" BackgroundColor="Orange" Grid.ColumnSpan="2" FontSize="30" TextColor="GhostWhite" Clicked="NumberSelect"></Button>
+        <Button Text="/" Grid.Row="1" Grid.Column="3" BackgroundColor="Gray" FontSize="30" TextColor="GhostWhite" Clicked="divide"></Button>
+        <Button Text="*" Grid.Row="2" Grid.Column="3" BackgroundColor="Gray" FontSize="30" TextColor="GhostWhite" Clicked="multiply"></Button>
+        <Button Text="-" Grid.Row="3" Grid.Column="3" BackgroundColor="Gray" FontSize="30" TextColor="GhostWhite" Clicked="sub"></Button>
+        <Button Text="+" Grid.Row="4" Grid.Column="3" BackgroundColor="Gray" FontSize="30" TextColor="GhostWhite" Clicked="add"></Button>
+        <Button Text="=" Grid.Row="5" Grid.Column="3" BackgroundColor="Gray" FontSize="30" TextColor="GhostWhite" Clicked="Math"></Button>
+        <Button Text="CE" Grid.Row="1" Grid.Column="0" BackgroundColor="DimGray" FontSize="30" TextColor="GhostWhite" Clicked="Clear"></Button>
+        <Button Text="%" Grid.Row="1" Grid.Column="1" BackgroundColor="DimGray" FontSize="30" TextColor="GhostWhite" Clicked="mod"></Button>
+        <Button Text="+/-" Grid.Row="1" Grid.Column="2" BackgroundColor="DimGray" FontSize="30" TextColor="GhostWhite"></Button>
+        <Button Text="." Grid.Row="5" Grid.Column="0" BackgroundColor="Orange" FontSize="30" TextColor="GhostWhite"></Button>
+   </Grid>
+</ContentPage>

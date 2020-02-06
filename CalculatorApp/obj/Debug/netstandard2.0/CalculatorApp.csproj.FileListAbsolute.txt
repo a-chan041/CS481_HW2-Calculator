@@ -1,0 +1,13 @@
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/bin/Debug/netstandard2.0/CalculatorApp.deps.json
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/bin/Debug/netstandard2.0/CalculatorApp.dll
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/bin/Debug/netstandard2.0/ref/CalculatorApp.dll
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/bin/Debug/netstandard2.0/CalculatorApp.pdb
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.csprojAssemblyReference.cache
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.AssemblyInfoInputs.cache
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.AssemblyInfo.cs
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.dll
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/ref/CalculatorApp.dll
+/Users/amandachan/Projects/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.pdb

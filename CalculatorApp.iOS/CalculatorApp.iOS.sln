@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorApp.iOS", "CalculatorApp.iOS.csproj", "{1FE9552E-8A24-4BC7-A688-FBE82FB0E5C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE9552E-8A24-4BC7-A688-FBE82FB0E5C3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{1FE9552E-8A24-4BC7-A688-FBE82FB0E5C3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{1FE9552E-8A24-4BC7-A688-FBE82FB0E5C3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{1FE9552E-8A24-4BC7-A688-FBE82FB0E5C3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{1FE9552E-8A24-4BC7-A688-FBE82FB0E5C3}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{1FE9552E-8A24-4BC7-A688-FBE82FB0E5C3}.Debug|iPhone.Build.0 = Debug|iPhone
+		{1FE9552E-8A24-4BC7-A688-FBE82FB0E5C3}.Release|iPhone.ActiveCfg = Release|iPhone
+		{1FE9552E-8A24-4BC7-A688-FBE82FB0E5C3}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal
